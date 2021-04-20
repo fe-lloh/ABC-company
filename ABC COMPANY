@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ABC COMPANY</title>
+</head>
+<body>
+<form action="" method="get" name="formname">
+	/* Covid vacccination survey*/
+</form>
+ <label for="fname">First Name:</label> 
+    <input type="text" value="First Name" id="fname" >
+
+    <label for="lname">Last Name:</label>
+    <input type="text" value="Last Name" id="lname" >
+</form>
+<label for="age">Age:</label>
+<input type="text" id="age" maxlength="3">
+</form>
+<form>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" >
+</form>
+ <input type="radio" name="gender" id="male"> 
+    <label for="m">Male</label>
+    
+    <input type="radio" name="gender" id="female"> 
+    <label for="f">Female</label>
+    <select>
+    <option selected disabled>--Select City--</option>
+    <optgroup label="Metros">
+        <option>Nairobi</option>
+        <option>Kitui</option>
+        <option>Machakos</option>
+        <option>Turkana</option>
+    </optgroup>
+    <optgroup label="Others">
+        <option>Kisumu</option>
+        <option>Kajiado</option>
+        <option>Kiambu</option>
+        <option>Kirinyaga</option>
+    </optgroup>                            
+</select>
+
+</body>
+</html>
